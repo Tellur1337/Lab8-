@@ -126,7 +126,7 @@ namespace ConsoleApp1
                         return false;
                 }
             }
-            return true; 
+            return true;  
         }
     }
 }
