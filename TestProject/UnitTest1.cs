@@ -45,7 +45,7 @@ namespace TestProject
         }
         [TestCase(0, ExpectedResult = 0)]
         [TestCase(2, ExpectedResult = 1)]
-        [TestCase(6, ExpectedResult = 8)]
+        [TestCase(6, ExpectedResult = 8)] 
         public int TestFibonacci(int testNum)
         {
             return Lab1.Fibonacci(testNum);
