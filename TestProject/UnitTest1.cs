@@ -76,7 +76,7 @@ namespace TestProject
         public void TestSimpleDigitException(int testNumber)
         {
             var errMes = Assert.Throws<Exception>(() => Lab1.SimpleDigit(testNumber));
-            StringAssert.Contains("Число может быть меньше единицы!", errMes.ToString());
+            StringAssert.Contains("Число sможет быть меньше единицы!", errMes.ToString());
         }
     }
 }
