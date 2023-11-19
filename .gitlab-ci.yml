@@ -11,4 +11,4 @@ build_bld:
 test_tst:
   stage: test
   script:
-  - 'dotnet test'
+  - 'dotnet test --no-restore'
