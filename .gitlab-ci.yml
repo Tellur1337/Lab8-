@@ -6,9 +6,9 @@ before_script:
 build_1:
   stage: build
   script:
-  - 'dotnet build'
+  - 'dotnet build --no-restore'
 
 test_qwe:
   stage: test
   script:
-  - 'dotnet test'
+  - 'dotnet test --no-restore'
