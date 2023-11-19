@@ -3,12 +3,18 @@ image: mcr.microsoft.com/dotnet/sdk:latest
 before_script:
   - 'dotnet restore'
 
-build_bld:
+build_1:
   stage: build
   script:
   - 'dotnet build --no-restore'
 
-test_tst:
+test_qwe:
   stage: test
   script:
-  - 'dotnet test --no-restore'
+  - 'dotnet test'
+
+# deploy:
+#   stage: deploy
+#   script:
+#   - ''
+
