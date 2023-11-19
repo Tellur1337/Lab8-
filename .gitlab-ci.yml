@@ -1,7 +1,7 @@
 #image: mcr.microsoft.com/dotnet/sdk:latest
 
-#before_script:
-#  - 'dotnet restore'
+before_script:
+  - 'dotnet restore'
 
 build_1:
   stage: build
