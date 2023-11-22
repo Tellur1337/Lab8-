@@ -121,7 +121,7 @@ namespace ConsoleApp1
             {
                 if (number % i == 0)
                 {
-                    count++;
+                    count++; 
                     if (count > 1)
                         return false;
                 }
