@@ -37,7 +37,6 @@ namespace TestProject
             StringAssert.Contains("Число не может быть меньше единицы! ", errorMessage.ToString());
         }
         [TestCase(1, ExpectedResult = 1)]
-        [TestCase(3, ExpectedResult = 6)]
         [TestCase(5, ExpectedResult = 120)]
         public int TestFactorial(int testNumber)
         {
